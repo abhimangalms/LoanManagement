@@ -16,7 +16,6 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MyProfileActivity"></activity>
         <activity android:name=".LoanStatusActivity" />
-        <activity android:name=".LoanS" />
         <activity
             android:name=".ApplyLoanActivity"
             android:label="Apply for a loan" />

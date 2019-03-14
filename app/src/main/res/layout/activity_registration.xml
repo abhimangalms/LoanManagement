@@ -34,7 +34,7 @@
                 android:textSize="28dp" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/fullNameEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
@@ -43,34 +43,34 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/emailIdEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Email id"
-                android:inputType="textPersonName" />
+                android:inputType="textEmailAddress" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/phoneNumberEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Phone number"
-                android:inputType="textPersonName" />
+                android:inputType="phone" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/accountNumberEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Account number"
-                android:inputType="textPersonName" />
+                android:inputType="number" />
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/branchNameEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -79,22 +79,23 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editText8"
+                android:id="@+id/passwordEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Password"
-                android:inputType="textPersonName" />
+                android:inputType="textPassword" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/registerButton"
                 android:layout_width="212dp"
                 android:layout_height="39dp"
                 android:layout_marginTop="32dp"
                 android:background="@drawable/background_card"
+                android:textAllCaps="false"
                 android:backgroundTint="@color/colorDarkBlue"
-                android:text="Button"
+                android:text="Register"
                 android:textColor="#FFF" />
 
             <LinearLayout
